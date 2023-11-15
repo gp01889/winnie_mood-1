@@ -8,6 +8,7 @@ const app = createApp(App)
 
 const install = async() => {
     app.use(Antd)
+
     app.mount('#app')
 }
 
